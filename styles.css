@@ -1,3 +1,30 @@
 body {
     background: rgb(67, 220, 231);
 }
+
+.stopwatch {
+    width: auto;
+    max-width: 600px;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+    margin: 200px auto;
+    
+
+}
+.stopwatch h1 {
+    color: rgb(82, 73, 73);
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons img {
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+}
